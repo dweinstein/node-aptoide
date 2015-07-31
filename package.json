@@ -4,7 +4,8 @@
   "description": "node aptoide client",
   "main": "bin.js",
   "bin": {
-    "aptoide-download": "./bin.js"
+    "aptoide-download": "./bin/download.js",
+    "aptoide-details": "./bin/details.js"
   },
   "scripts": {
     "test": "tape ./test/*.test.js"
