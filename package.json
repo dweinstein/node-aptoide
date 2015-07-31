@@ -1,0 +1,39 @@
+{
+  "name": "aptoide",
+  "version": "0.0.1",
+  "description": "node aptoide client",
+  "main": "bin.js",
+  "bin": {
+    "aptoide-download": "./bin.js"
+  },
+  "scripts": {
+    "test": "tape ./test/*.test.js"
+  },
+  "keywords": [
+    "aptoide",
+    "download",
+    "apk"
+  ],
+  "author": "dweinstein",
+  "dependencies": {
+    "co": "^4.6.0",
+    "co-request": "github:leukhin/co-request#e78105859d302da05ad459db861a548b6b0216df",
+    "debug": "^2.2.0",
+    "rc": "^1.1.0",
+    "request": "^2.60.0"
+  },
+  "devDependencies": {
+    "tape": "^4.0.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dweinstein/node-aptoide.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dweinstein/node-aptoide/issues"
+  },
+  "homepage": "https://github.com/dweinstein/node-aptoide#readme"
+}

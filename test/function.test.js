@@ -1,0 +1,1 @@
+const bin = require('../bin');
