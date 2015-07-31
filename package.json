@@ -1,6 +1,6 @@
 {
   "name": "aptoide",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "node aptoide client",
   "main": "bin.js",
   "bin": {
